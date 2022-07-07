@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(90deg,rgba(209, 209, 190, 0.637), rgba(209, 209, 190, 0.226)),
+  url("UI/books-background.jpg");
+}
+
+main {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #e22d97;
+  text-shadow: 1px 1px #585151;
+
+}
+
